@@ -10,6 +10,15 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Chain.cxx" />
+    <ClCompile Include="..\src\Command.cxx" />
+    <ClCompile Include="..\src\shell.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Chain.h" />
+    <ClInclude Include="..\src\Command.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AC4C675B-4D76-4F66-9108-7042F2BB6F17}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
